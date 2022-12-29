@@ -2,6 +2,7 @@
   "name": "flowbite-datepicker",
   "version": "1.2.1",
   "description": "A Tailwind CSS powered datepicker built with vanilla JavaScript and Flowbite",
+  "type": "module",
   "module": "js/main.js",
   "exports": {
     ".": "./js/main.js",
