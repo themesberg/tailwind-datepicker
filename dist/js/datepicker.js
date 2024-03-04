@@ -2392,7 +2392,7 @@ var Datepicker = (function () {
 
     /**
      * Destroy the Datepicker instance
-     * @return {Detepicker} - the instance destroyed
+     * @return {Datepicker} - the instance destroyed
      */
     destroy() {
       this.hide();
