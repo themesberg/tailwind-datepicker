@@ -101,7 +101,14 @@ export default class YearsView extends View {
         classList.add('next');
       }
       if (current < this.minYear || current > this.maxYear) {
-        classList.add('disabled');
+        classList.remove(
+          'text-gray-900',
+          'dark:text-white',
+          'hover:bg-gray-100',
+          'dark:hover:bg-gray-600',
+          'cursor-pointer',
+        );
+        classList.add('disabled', 'text-gray-500', 'dark:text-gray-400', 'cursor-not-allowed');
       }
       if (this.range) {
         const [rangeStart, rangeEnd] = this.range;

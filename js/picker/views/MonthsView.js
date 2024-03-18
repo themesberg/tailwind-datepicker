@@ -129,7 +129,14 @@ export default class MonthsView extends View {
         || isMinYear && index < this.minMonth
         || isMaxYear && index > this.maxMonth
       ) {
-        classList.add('disabled');
+        classList.remove(
+          'text-gray-900',
+          'dark:text-white',
+          'hover:bg-gray-100',
+          'dark:hover:bg-gray-600',
+          'cursor-pointer',
+        );
+        classList.add('disabled', 'text-gray-500', 'dark:text-gray-400', 'cursor-not-allowed');
       }
       if (range) {
         const [rangeStart, rangeEnd] = range;
