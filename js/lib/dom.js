@@ -1,4 +1,4 @@
-var range = null;
+let range = null;
 
 export function parseHTML(html) {
   if (range == null) { range = document.createRange() }
