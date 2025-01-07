@@ -1,8 +1,8 @@
 /**
  * Irish English translation for bootstrap-datepicker
  */
-(function () {
-  Datepicker.locales['en-IE'] = {
+export default {
+  'en-IE': {
     days: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
     daysShort: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
     daysMin: ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"],
@@ -13,5 +13,5 @@
     clear: "Clear",
     weekStart: 1,
     format: "dd/mm/yyyy"
-  };
-}());
+  }
+};

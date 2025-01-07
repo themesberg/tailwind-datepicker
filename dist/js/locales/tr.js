@@ -2,8 +2,8 @@
  * Turkish translation for bootstrap-datepicker
  * Serkan Algur <kaisercrazy_2@hotmail.com>
  */
-(function () {
-  Datepicker.locales.tr = {
+export default {
+  tr: {
     days: ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"],
     daysShort: ["Pz", "Pzt", "Sal", "Çrş", "Prş", "Cu", "Cts"],
     daysMin: ["Pz", "Pzt", "Sa", "Çr", "Pr", "Cu", "Ct"],
@@ -13,5 +13,5 @@
     clear: "Temizle",
     weekStart: 1,
     format: "dd.mm.yyyy"
-  };
-}());
+  }
+};

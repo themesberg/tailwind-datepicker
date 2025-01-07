@@ -2,8 +2,8 @@
  * Hindi translation for bootstrap-datepicker
  * Visar Uruqi <visar.uruqi@gmail.com>
  */
-(function () {
-  Datepicker.locales.hi = {
+export default {
+  hi: {
     days: ["रविवार", "सोमवार", "मंगलवार", "बुधवार", "गुरुवार", "शुक्रवार", "शनिवार"],
     daysShort: ["सूर्य", "सोम", "मंगल", "बुध", "गुरु", "शुक्र", "शनि"],
     daysMin: ["र", "सो", "मं", "बु", "गु", "शु", "श"],
@@ -14,5 +14,5 @@
     clear: "साफ",
     weekStart: 1,
     format: "dd / mm / yyyy"
-  };
-}());
+  }
+};

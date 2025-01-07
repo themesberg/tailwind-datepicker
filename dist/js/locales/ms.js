@@ -2,8 +2,8 @@
  * Malay translation for bootstrap-datepicker
  * Ateman Faiz <noorulfaiz@gmail.com>
  */
-(function () {
-  Datepicker.locales.ms = {
+export default {
+  ms: {
     days: ["Ahad", "Isnin", "Selasa", "Rabu", "Khamis", "Jumaat", "Sabtu"],
     daysShort: ["Aha", "Isn", "Sel", "Rab", "Kha", "Jum", "Sab"],
     daysMin: ["Ah", "Is", "Se", "Ra", "Kh", "Ju", "Sa"],
@@ -11,5 +11,5 @@
     monthsShort: ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Ogo", "Sep", "Okt", "Nov", "Dis"],
     today: "Hari Ini",
     clear: "Bersihkan"
-  };
-}());
+  }
+};

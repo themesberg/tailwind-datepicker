@@ -2,8 +2,8 @@
  * Mongolian translation for bootstrap-datepicker
  * Andrey Torsunov <andrey.torsunov@gmail.com>
  */
-(function () {
-  Datepicker.locales.mn = {
+export default {
+  mn: {
     days: ["Ням", "Даваа", "Мягмар", "Лхагва", "Пүрэв", "Баасан", "Бямба"],
     daysShort: ["Ням", "Дав", "Мяг", "Лха", "Пүр", "Баа", "Бям"],
     daysMin: ["Ня", "Да", "Мя", "Лх", "Пү", "Ба", "Бя"],
@@ -13,5 +13,5 @@
     clear: "Тодорхой",
     format: "yyyy.mm.dd",
     weekStart: 1
-  };
-}());
+  }
+};

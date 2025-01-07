@@ -2,8 +2,8 @@
  * German translation for bootstrap-datepicker
  * Sam Zurcher <sam@orelias.ch>
  */
-(function () {
-  Datepicker.locales.de = {
+export default {
+  de: {
     days: ["Sonntag", "Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag"],
     daysShort: ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"],
     daysMin: ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"],
@@ -14,5 +14,5 @@
     clear: "Löschen",
     weekStart: 1,
     format: "dd.mm.yyyy"
-  };
-}());
+  }
+};

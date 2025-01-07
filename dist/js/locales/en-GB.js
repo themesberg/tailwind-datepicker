@@ -2,8 +2,8 @@
  * British English translation for bootstrap-datepicker
  * Xavier Dutreilh <xavier@dutreilh.com>
  */
-(function () {
-  Datepicker.locales['en-GB'] = {
+export default {
+  'en-GB': {
     days: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
     daysShort: ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"],
     daysMin: ["Su", "Mo", "Tu", "We", "Th", "Fr", "Sa"],
@@ -14,5 +14,5 @@
     clear: "Clear",
     weekStart: 1,
     format: "dd/mm/yyyy"
-  };
-}());
+  }
+};

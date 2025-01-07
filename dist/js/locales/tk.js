@@ -2,8 +2,8 @@
  * Turkmen translation for bootstrap-datepicker
  * N'Bayramberdiyev <nbayramberdiyev@outlook.com>
  */
-(function () {
-  Datepicker.locales.tk = {
+export default {
+  tk: {
     days: ["Ýekşenbe", "Duşenbe", "Sişenbe", "Çarşenbe", "Penşenbe", "Anna", "Şenbe"],
     daysShort: ["Ýek", "Duş", "Siş", "Çar", "Pen", "Ann", "Şen"],
     daysMin: ["Ýe", "Du", "Si", "Ça", "Pe", "An", "Şe"],
@@ -14,5 +14,5 @@
     clear: "Aýyr",
     weekStart: 1,
     format: "dd.mm.yyyy"
-  };
-}());
+  }
+};

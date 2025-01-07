@@ -2,8 +2,8 @@
  * Catalan translation for bootstrap-datepicker
  * J. Garcia <jogaco.en@gmail.com>
  */
-(function () {
-  Datepicker.locales.ca = {
+export default {
+  ca: {
     days: ["Diumenge", "Dilluns", "Dimarts", "Dimecres", "Dijous", "Divendres", "Dissabte"],
     daysShort: ["Diu",  "Dil", "Dmt", "Dmc", "Dij", "Div", "Dis"],
     daysMin: ["dg", "dl", "dt", "dc", "dj", "dv", "ds"],
@@ -14,5 +14,5 @@
     clear: "Esborrar",
     weekStart: 1,
     format: "dd/mm/yyyy"
-  };
-}());
+  }
+};

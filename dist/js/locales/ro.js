@@ -2,8 +2,8 @@
  * Romanian translation for bootstrap-datepicker
  * Cristian Vasile <cristi.mie@gmail.com>
  */
-(function () {
-  Datepicker.locales.ro = {
+export default {
+  ro: {
     days: ["Duminică", "Luni", "Marţi", "Miercuri", "Joi", "Vineri", "Sâmbătă"],
     daysShort: ["Dum", "Lun", "Mar", "Mie", "Joi", "Vin", "Sâm"],
     daysMin: ["Du", "Lu", "Ma", "Mi", "Jo", "Vi", "Sâ"],
@@ -13,5 +13,5 @@
     clear: "Șterge",
     weekStart: 1,
     format: "dd/mm/yyyy"
-  };
-}());
+  }
+};

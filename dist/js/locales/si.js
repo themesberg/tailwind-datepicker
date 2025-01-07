@@ -2,8 +2,8 @@
  * Sinhala translation for bootstrap-datepicker
  * Chanaka Fernando <chanaka.fernando@hotmail.com>
  */
-(function () {
-  Datepicker.locales.si = {
+export default {
+  si: {
     days: ["ඉරිදා", "සඳුදා", "අඟහරුවාදා", "බදාදා", "බ්‍රහස්පතින්දා", "සිකුරාදා", "සෙනසුරාදා"],
     daysShort: ["ඉරි", "සඳු", "අඟ", "බදා", "බ්‍රහ", "සිකු", "සෙන"],
     daysMin: ["ඉ", "ස", "අ", "බ", "බ්‍ර", "සි", "සෙ"],
@@ -14,5 +14,5 @@
     clear: "මකන්න",
     weekStart: 0,
     format: "yyyy-mm-dd"
-  };
-}());
+  }
+};

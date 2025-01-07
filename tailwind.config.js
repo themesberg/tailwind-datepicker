@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./demo/**/*.html", "./js/**/*.js", "./docs/**/*.*"],
+  content: ["./js/**/*.js"],
   darkMode: 'class', // or 'media' or 'class'
   theme: {
     extend: {},
@@ -8,6 +8,9 @@ module.exports = {
     extend: {},
   },
   plugins: [
-    require('flowbite/plugin')
+    // require('flowbite/plugin')
   ],
+  corePlugins: {
+    preflight: false,
+  }
 }

@@ -2,8 +2,8 @@
  * Brazilian translation for bootstrap-datepicker
  * Cauan Cabral <cauan@radig.com.br>
  */
-(function () {
-  Datepicker.locales['pt-BR'] = {
+export default {
+  'pt-BR': {
     days: ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"],
     daysShort: ["Dom", "Seg", "Ter", "Qua", "Qui", "Sex", "Sáb"],
     daysMin: ["Do", "Se", "Te", "Qu", "Qu", "Se", "Sa"],
@@ -13,5 +13,5 @@
     monthsTitle: "Meses",
     clear: "Limpar",
     format: "dd/mm/yyyy"
-  };
-}());
+  }
+};

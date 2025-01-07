@@ -3,8 +3,8 @@
  * Marek Lichtner <marek@licht.sk>
  * Fixes by Michal Remiš <michal.remis@gmail.com>
  */
-(function () {
-  Datepicker.locales.sk = {
+export default {
+  sk: {
     days: ["Nedeľa", "Pondelok", "Utorok", "Streda", "Štvrtok", "Piatok", "Sobota"],
     daysShort: ["Ned", "Pon", "Uto", "Str", "Štv", "Pia", "Sob"],
     daysMin: ["Ne", "Po", "Ut", "St", "Št", "Pia", "So"],
@@ -14,5 +14,5 @@
     clear: "Vymazať",
     weekStart: 1,
     format: "d.m.yyyy"
-  };
-}());
+  }
+};

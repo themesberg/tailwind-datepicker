@@ -2,8 +2,8 @@
  * Swedish translation for bootstrap-datepicker
  * Patrik Ragnarsson <patrik@starkast.net>
  */
-(function () {
-  Datepicker.locales.sv = {
+export default {
+  sv: {
     days: ["söndag", "måndag", "tisdag", "onsdag", "torsdag", "fredag", "lördag"],
     daysShort: ["sön", "mån", "tis", "ons", "tor", "fre", "lör"],
     daysMin: ["sö", "må", "ti", "on", "to", "fr", "lö"],
@@ -13,5 +13,5 @@
     format: "yyyy-mm-dd",
     weekStart: 1,
     clear: "Rensa"
-  };
-}());
+  }
+};

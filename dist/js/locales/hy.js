@@ -2,8 +2,8 @@
  * Armenian translation for bootstrap-datepicker
  * Hayk Chamyan <hamshen@gmail.com>
  */
-(function () {
-  Datepicker.locales.hy = {
+export default {
+  hy: {
     days: ["Կիրակի", "Երկուշաբթի", "Երեքշաբթի", "Չորեքշաբթի", "Հինգշաբթի", "Ուրբաթ", "Շաբաթ"],
     daysShort: ["Կիր", "Երկ", "Երե", "Չոր", "Հին", "Ուրբ", "Շաբ"],
     daysMin: ["Կի", "Եկ", "Եք", "Չո", "Հի", "Ու", "Շա"],
@@ -14,5 +14,5 @@
     format: "dd.mm.yyyy",
     weekStart: 1,
     monthsTitle: 'Ամիսնէր'
-  };
-}());
+  }
+};

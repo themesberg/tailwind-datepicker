@@ -2,8 +2,8 @@
  * Kazakh translation for bootstrap-datepicker
  * Yerzhan Tolekov <era.tolekov@gmail.com>
  */
-(function () {
-  Datepicker.locales.kk = {
+export default {
+  kk: {
     days: ["Жексенбі", "Дүйсенбі", "Сейсенбі", "Сәрсенбі", "Бейсенбі", "Жұма", "Сенбі"],
     daysShort: ["Жек", "Дүй", "Сей", "Сәр", "Бей", "Жұм", "Сен"],
     daysMin: ["Жк", "Дс", "Сс", "Ср", "Бс", "Жм", "Сн"],
@@ -11,5 +11,5 @@
     monthsShort: ["Қаң", "Ақп", "Нау", "Сәу", "Мам", "Мау", "Шіл", "Там", "Қыр", "Қаз", "Қар", "Жел"],
     today: "Бүгін",
     weekStart: 1
-  };
-}());
+  }
+};

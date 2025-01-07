@@ -2,8 +2,8 @@
  * Montenegrin translation for bootstrap-datepicker
  * Miodrag Nikač <miodrag@restartit.me>
  */
-(function () {
-  Datepicker.locales.me = {
+export default {
+  me: {
     days: ["Nedjelja","Ponedjeljak", "Utorak", "Srijeda", "Četvrtak", "Petak", "Subota"],
     daysShort: ["Ned", "Pon", "Uto", "Sri", "Čet", "Pet", "Sub"],
     daysMin: ["Ne", "Po", "Ut", "Sr", "Če", "Pe", "Su"],
@@ -13,5 +13,5 @@
     weekStart: 1,
     clear: "Izbriši",
     format: "dd.mm.yyyy"
-  };
-}());
+  }
+};

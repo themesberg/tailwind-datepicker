@@ -2,8 +2,8 @@
  * Uzbek latin translation for bootstrap-datepicker
  * Kakhramonov Javlonbek <kakjavlon@gmail.com>
  */
-(function () {
-  Datepicker.locales['uz-latn'] = {
+export default {
+  'uz-latn': {
     days: ["Yakshanba", "Dushanba", "Seshanba", "Chorshanba", "Payshanba", "Juma", "Shanba"],
     daysShort: ["Yak", "Du", "Se", "Chor", "Pay", "Ju", "Sha"],
     daysMin: ["Ya", "Du", "Se", "Cho", "Pa", "Ju", "Sha"],
@@ -14,5 +14,5 @@
     format: "dd.mm.yyyy",
     weekStart: 1,
     monthsTitle: 'Oylar'
-  };
-}());
+  }
+};

@@ -2,8 +2,8 @@
  * Belgium-Dutch translation for bootstrap-datepicker
  * Julien Poulin <poulin_julien@hotmail.com>
  */
-(function () {
-  Datepicker.locales['nl-BE'] = {
+export default {
+  'nl-BE': {
     days: ["zondag", "maandag", "dinsdag", "woensdag", "donderdag", "vrijdag", "zaterdag"],
     daysShort: ["zo", "ma", "di", "wo", "do", "vr", "za"],
     daysMin: ["zo", "ma", "di", "wo", "do", "vr", "za"],
@@ -14,5 +14,5 @@
     clear: "Leegmaken",
     weekStart: 1,
     format: "dd/mm/yyyy"
-  };
-}());
+  }
+};

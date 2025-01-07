@@ -2,8 +2,8 @@
  * Polish translation for bootstrap-datepicker
  * Robert <rtpm@gazeta.pl>
  */
-(function () {
-  Datepicker.locales.pl = {
+export default {
+  pl: {
     days: ["Niedziela", "Poniedziałek", "Wtorek", "Środa", "Czwartek", "Piątek", "Sobota"],
     daysShort: ["Niedz.", "Pon.", "Wt.", "Śr.", "Czw.", "Piąt.", "Sob."],
     daysMin: ["Ndz.", "Pn.", "Wt.", "Śr.", "Czw.", "Pt.", "Sob."],
@@ -13,5 +13,5 @@
     weekStart: 1,
     clear: "Wyczyść",
     format: "dd.mm.yyyy"
-  };
-}());
+  }
+};
